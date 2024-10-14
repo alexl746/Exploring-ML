@@ -1,1 +1,1 @@
-
+This code takes the input data of x =[1,2,3,4] and multiplies it by a scalar that you input. It will then use gradient descent to determine this scalar you input (it doesn't cheat I promise) and then output the predictions of 5* (their guess of the scalar you input) and  10* (their guess of the scalar you input). Negative and positive values work.
