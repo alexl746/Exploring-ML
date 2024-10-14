@@ -4,4 +4,4 @@ The one labelled "detecting digits.py" doesn't use any machine learning librarie
 
 Both use a neural network, forward/back propagation and gradient descent to tweak the weight and bias parameters.
 
-EDIT: You can't run the detecting digits.py because the csv file that contains the MNIST dataset is too big to put in github (~70 mb where the limit is 25mb). However PyTorch program will work since it takes the database from the pytorch library.
+EDIT: You can't run the detecting digits.py because the csv file that contains the MNIST dataset is too big to put in github (~70 mb where the limit is 25mb). However the PyTorch program will work since it takes the database from the pytorch library.
