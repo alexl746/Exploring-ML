@@ -1,1 +1,2 @@
-
+The code found in this file will fit a line of best fit in the way it is set up currently, however if you change n_features in linear_regression_tests.py to a number such as 2 or 3 it will fit a linear regression. However with the plotting code I don't think it would work, since we can't picture this (as far as I know) with a 2D graph.
+If you want to run this yourself, run linear_regression_tests.py (you will need to download some libraries) as this code imports the linear regression class from linear_regression.py and then uses it to input some linear regression dataset and after a couple of iterations of gradient descent it will fit a line of best fit, and then output it to the screen. Changing n_samples and noise will work and will not break the code.
