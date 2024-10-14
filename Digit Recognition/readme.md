@@ -3,3 +3,5 @@ Both programs in this folder detect digits from the MNIST dataset, the one label
 The one labelled "detecting digits.py" doesn't use any machine learning libraries and has the maths coded into the program (except from dot product which is done through numpy). This gets an accuracy of around 80% but only does 500 iterations whereas the PyTorch program does 1200 so the difference in accuracy could be due to PyTorch being better or due to the lack of data given to the non-PyTorch program.
 
 Both use a neural network, forward/back propagation and gradient descent to tweak the weight and bias parameters.
+
+EDIT: You can't run the detecting digits.py because the csv file that contains the MNIST dataset is too big to put in github (~70 mb where the limit is 25mb). However PyTorch program will work since it takes the database from the pytorch library.
